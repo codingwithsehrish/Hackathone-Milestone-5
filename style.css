@@ -1,0 +1,101 @@
+/* style from the REsume builder: */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg, #39f6d3, #122579);
+    margin: 30px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 192, 255);
+
+}
+
+from{
+    margin: auto;
+    background-color: rgb(202, 232, 250);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(247, 242, 152);
+    padding: 40px;
+    max-width: 600px;
+}
+h1 {
+    text-align: center;
+    /* transform: translateY(-10px); */
+    box-shadow: 0 8px 18px rgba(106, 36, 36, 0.3);
+    color: rgb(138, 5, 53)
+}
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background: linear-gradient(135deg, #dc6b37, #122579); */
+    font-size: medium;
+    margin: 30px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 192, 255);
+}
+
+fieldset{
+    border: 2px solid rgb(88, 27, 117);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(230, 237, 238);
+
+}
+legend {
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(53, 6, 96)
+}
+
+label{ 
+    display: block;
+    margin-top: 10px;
+    color:black;
+}
+input,textarea{
+    margin-bottom: 10px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    border: 1px solid  rgb(116, 195, 150);
+    border-radius: 4px;
+    box-sizing: border-box; 
+} 
+
+button {
+    display: block;
+    width: 100%;
+    background-color:  rgb(116, 195, 150);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgb(8, 49, 85);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:lawngreen;
+    transform: translatey(-3px);
+}
+#resume-display{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(255, 192, 255);
+    box-shadow: 0 4px 8px rgba(106, 36, 36, 0.3);
+    /* making the resume editable. */
+    outline: none;
+
+}
+#resume-display h2 {
+    color: crimson;
+}

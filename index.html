@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHARABLE RESUME BUILDER</title>
+     <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <h1>SHARABLE RESUME BUILDER</h1>
+    <form id="resume-form"> 
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your "username" required >
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required >
+            <label for="fathername">Father Name:</label>
+            <input type="name" id="fathername" placeholder="Enter your Father name" required >
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required >
+            <label for="natioanal">National ID:</label>
+            <input type="text" id="national" placeholder="Enter your natioanl identity number" required >
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required >
+        </fieldset>
+        <fieldset>     
+        <legend>EDUCATION</legend>
+             <label for="education">Education:</label>
+             <textarea id="education" placeholder="Enter Your Education" rows="4" required></textarea>             
+</fieldset>
+<fieldset>
+    <legend>EXPERIANCE</legend>
+    <label for="experiance">Experiance:</label>
+    <textarea id="experiance" placeholder="Enter Your Work Experiance (IF ANY)" rows="4" required></textarea>
+</fieldset>
+<fieldset>
+    <legend>SKILLS</legend>
+    <label for="skills">Skills:</label>
+    <textarea id="skills" placeholder="Enter Your Skills Here" rows="4" required></textarea>
+</fieldset>
+
+<button type="submit"><b>Generate Your Customized Resume</b></button>
+</form>
+
+<br>
+
+<!-- Dynamic  And Editable Resume -->
+<div id="resume-display" contenteditable="true">
+<!-- Resume will be Generate Below -->
+</div>
+<br>
+
+<!-- section for the sharable  link and download option  -->
+ <dir id="sharable-link-continer"  style="display: none;">
+    <h2>sharable link</h2>
+    <p>Here is your  Unique Link to view or edit Your Resume</p>
+    <a href="#" id="sharable-link" target="_blank"></a>
+    <br>
+    <button id="download-pdf"><b>Download as PDF</b></button>
+ </dir>
+<script src="script.js"></script>
+
+</body>
+</html>
